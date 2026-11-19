@@ -1,0 +1,72 @@
+{
+  "info": {
+    "_postman_id": "4da17534-4396-4e6a-ac54-a33a0d747919",
+    "name": "tareaveterinaria",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "60051679"
+  },
+  "item": [
+    {
+      "name": "tareaveterianria",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8081/api/mascota/especie/perro",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8081",
+          "path": [
+            "api",
+            "mascota",
+            "especie",
+            "perro"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Crear Duenio",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"nombre\": \"Carlos\",\r\n  \"apellido\": \"Mena\",\r\n  \"cedula\": \"1799887766\",\r\n  \"telefono\": \"0987654321\",\r\n  \"email\": \"carlos@mail.com\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:8081/api/duenio",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8081",
+          "path": [
+            "api",
+            "duenio"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Crear Mascota",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": ""
+        }
+      },
+      "response": []
+    }
+  ]
+}
